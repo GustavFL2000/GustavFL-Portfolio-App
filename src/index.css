@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    background-color: #20282f;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+img {
+    color: #fff;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+a:-webkit-any-link:hover {
+    color: #3da961;
+}

@@ -1,0 +1,31 @@
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.game-card {
+  border: 1px solid #191f24;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background: #191f24;
+  transition: transform 0.2s ease;
+}
+
+.game-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.game-card-link:hover .game-card {
+  transform: scale(1.03);
+  background: #64c785;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

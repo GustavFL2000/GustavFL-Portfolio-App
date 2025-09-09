@@ -1,0 +1,57 @@
+# --------------------------------------
+# Node.js dependencies
+# --------------------------------------
+node_modules/        # Installerede pakker, kan altid geninstalles
+/.pnp/               # PnP packages (hvis du bruger Yarn Plug'n'Play)
+.pnp.js              # PnP helper
+
+# --------------------------------------
+# Build output
+# --------------------------------------
+dist/                # Vite build output
+build/               # CRA build output (hvis du bruger Create React App)
+
+# --------------------------------------
+# Environment variables
+# --------------------------------------
+.env                  # Generelle miljøvariabler
+.env.local            # Lokale overrides, ikke til versionering
+.env.*.local          # Alle andre lokale miljøfiler
+
+# --------------------------------------
+# Logs
+# --------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------------------------
+# System files
+# --------------------------------------
+.DS_Store             # MacOS metadata
+Thumbs.db             # Windows metadata
+
+# --------------------------------------
+# IDE / editor files
+# --------------------------------------
+.vscode/              # VS Code settings
+.idea/                # JetBrains IDE settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --------------------------------------
+# Optional: testing / coverage
+# --------------------------------------
+/coverage             # Hvis du bruger test coverage
+/.nyc_output          # NYC test coverage output
+
+# --------------------------------------
+# Optional: temp files
+# --------------------------------------
+*.log
+*.tmp
+*.bak
