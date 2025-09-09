@@ -1,22 +1,27 @@
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  padding: 20px;
 }
 
 .game-card {
   border: 1px solid #191f24;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   background: #191f24;
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .game-card-link {
   text-decoration: none;
   color: inherit;
   display: block;
+  height: 100%;
 }
 
 .game-card-link:hover .game-card {
@@ -26,6 +31,33 @@
 
 .game-card img {
   width: 100%;
-  height: auto;
+  max-height: 180px;   /* keeps images under control */
+  object-fit: cover;   /* crops images nicely */
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.game-card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.game-card p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+/* ✅ Mobile optimization */
+@media (max-width: 500px) {
+  .game-grid {
+    grid-template-columns: 1fr;  /* single column on small screens */
+  }
+
+  .game-card {
+    padding: 10px;
+  }
+
+  .game-card img {
+    max-height: 150px;
+  }
 }

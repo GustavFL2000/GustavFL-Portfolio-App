@@ -12,5 +12,12 @@
     "description": "Et puslespil med 50 levels",
     "image": "/images/puzzlequest.jpg",
     "link": "https://mitandetspil.dk"
+  },
+  {
+    "id": 3,
+    "title": "Puzzle Quest 2",
+    "description": "Et puslespil med 100 levels",
+    "image": "/images/puzzlequest.jpg",
+    "link": "https://mitandetspil2.dk"
   }
 ]
