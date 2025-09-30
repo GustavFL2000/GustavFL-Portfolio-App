@@ -11,8 +11,8 @@ function Games() {
 
   return (
     <div>
-      <h1>Welcome to the Project Page</h1>
-      <p>This is the Projekt page of the application.</p>
+      <h1>Velkommen til projket siden</h1>
+      <p>Her på siden ses mine færdige og igangværende projekter.</p>
 
       <div className="game-grid">
         {games.map(game => (

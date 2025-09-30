@@ -1,43 +1,58 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;   /* vigtigt for sticky-bund layout */
 }
 
 body {
-    padding: 40px;
-    background-color: #20282f;
+  display: flex;
+  flex-direction: column;
+  background-color: #20282f;
+}
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1; /* skubber footeren til bunden */
 }
 
 h1 {
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 p {
-    color: #fff;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
+
 h2 {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
+
 img {
-    color: #fff;
+  color: #fff;
 }
 
 a:-webkit-any-link {
-    color: white;
-    cursor: pointer;
-    text-decoration: underline;
-    
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 a:-webkit-any-link:hover {
-    color: #3da961;
+  color: #3da961;
 }

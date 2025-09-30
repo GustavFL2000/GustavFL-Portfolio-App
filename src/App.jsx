@@ -1,8 +1,7 @@
-import  {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Home from './pages/Home'
-import Games from './pages/Games'
-import { Link } from 'react-router-dom'
-
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Games from "./pages/Games";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,10 +9,15 @@ function App() {
       <nav>
         <Link to="/">Hjem</Link> | <Link to="/Games">Projekter</Link>
       </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Games" element={<Games />} />
-      </Routes>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Games" element={<Games />} />
+        </Routes>
+      </main>
+
+      <Footer /> {/*ligger altid nederst */}
     </Router>
   );
 }

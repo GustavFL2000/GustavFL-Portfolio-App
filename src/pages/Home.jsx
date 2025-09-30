@@ -3,8 +3,8 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className='home-container'>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the main page of the application.</p>
+      <h1>Velkommen til min portolio WebApp</h1>
+      <p>Dette er en app, der indeholder links til Gustav Færmann Lassens github, gitlab og diverse projekter.</p>
       <a
         href="https://gitlab.com/users/gustavfl13/projects"
         className="link-display-link"

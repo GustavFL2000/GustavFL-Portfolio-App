@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Dodge the Creeps",
+    "title": "Dodge the Creeps (W.I.P)",
     "description": "Et hurtigt arcade-spil, lavet til læring af Godot",
     "image": "/images/GodotDTC.png",
     "link": "https://mitspil.dk"
   },
   {
     "id": 2,
-    "title": "More Metalt (Fabric mod)",
+    "title": "More Metalt (Fabric mod) (W.I.P)",
     "description": "Et fabric mod, der tilføjer flere slags metaller til minecraft 1.21.4+",
     "image": "/images/puzzlequest.jpg",
     "link": "https://mitmod.dk"
