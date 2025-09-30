@@ -1,23 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Space Shooter",
-    "description": "Et hurtigt arcade-spil",
-    "image": "/images/spaceshooter.jpeg",
+    "title": "Dodge the Creeps",
+    "description": "Et hurtigt arcade-spil, lavet til læring af Godot",
+    "image": "/images/GodotDTC.png",
     "link": "https://mitspil.dk"
   },
   {
     "id": 2,
-    "title": "Puzzle Quest",
-    "description": "Et puslespil med 50 levels",
+    "title": "More Metalt (Fabric mod)",
+    "description": "Et fabric mod, der tilføjer flere slags metaller til minecraft 1.21.4+",
     "image": "/images/puzzlequest.jpg",
-    "link": "https://mitandetspil.dk"
-  },
-  {
-    "id": 3,
-    "title": "Puzzle Quest 2",
-    "description": "Et puslespil med 100 levels",
-    "image": "/images/puzzlequest.jpg",
-    "link": "https://mitandetspil2.dk"
+    "link": "https://mitmod.dk"
   }
 ]

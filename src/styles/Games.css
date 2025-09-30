@@ -7,8 +7,8 @@
 
 .game-card {
   border: 1px solid #191f24;
-  border-radius: 10px;
-  padding: 15px;
+  border-radius: 10px;   /* runde hjørner */
+  overflow: hidden;      /* billedet følger hjørnerne */
   text-align: center;
   background: #191f24;
   transition: transform 0.2s ease;
@@ -31,11 +31,13 @@
 
 .game-card img {
   width: 100%;
-  max-height: 180px;   /* keeps images under control */
-  object-fit: cover;   /* crops images nicely */
+  max-height: 250px;   /* evt. justér */
+  object-fit: contain; /* viser hele billedet */
   border-radius: 5px;
   margin-bottom: 10px;
+  background: #191f24;  
 }
+
 
 .game-card h2 {
   font-size: 1.2rem;
