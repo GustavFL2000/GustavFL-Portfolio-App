@@ -20,15 +20,14 @@ function Games() {
             key={game.id}
             href={game.link}
             className="game-card-link"
-            target="_blank"
-            rel="noopener noreferrer"
+            download
           >
             <div className="game-card">
               <img src={game.image} alt={game.title} />
               <h2>{game.title}</h2>
               <p>{game.description}</p>
-        
-          
+
+
             </div>
           </a>
         ))}
