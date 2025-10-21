@@ -1,3 +1,8 @@
+.games-container {
+    padding: 20px;
+    text-align: center;
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -6,12 +11,12 @@
 }
 
 .game-card {
-  border: 1px solid #191f24;
-  border-radius: 10px;   /* runde hjørner */
-  overflow: hidden;      /* billedet følger hjørnerne */
+  border: 2px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
   text-align: center;
   background: #191f24;
-  transition: transform 0.2s ease;
+  transition: all 0.3s ease;  /* Ændret til all for at inkludere farveændringer */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,30 +34,26 @@
   background: #64c785;
 }
 
+.game-card-link:hover .game-card h2,
+.game-card-link:hover .game-card p {
+  color: #191f24 !important;  /* Tilføjet !important for at overskrive andre styles */
+}
+
 .game-card img {
   width: 100%;
-  max-height: 250px;   /* evt. justér */
-  object-fit: contain; /* viser hele billedet */
+  max-height: 250px;
+  object-fit: contain;
   border-radius: 5px;
   margin-bottom: 10px;
   background: #191f24;  
 }
 
 
-.game-card h2 {
-  font-size: 1.2rem;
-  margin: 10px 0 5px;
-}
 
-.game-card p {
-  font-size: 0.9rem;
-  color: #ddd;
-}
-
-/* ✅ Mobile optimization */
+/* Mobile optimization */
 @media (max-width: 500px) {
   .game-grid {
-    grid-template-columns: 1fr;  /* single column on small screens */
+    grid-template-columns: 1fr;
   }
 
   .game-card {

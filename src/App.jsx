@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">Hjem</Link> | <Link to="/Games">Projekter</Link>
+        <Link to="/">Hjem</Link>  <Link to="/Games">Projekter</Link>
       </nav>
 
       <main>

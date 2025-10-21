@@ -10,8 +10,8 @@ function Games() {
   }, []);
 
   return (
-    <div>
-      <h1>Velkommen til projket siden</h1>
+    <div className="games-container">
+      <h1>Velkommen til projekt siden</h1>
       <p>Her på siden ses mine færdige og igangværende projekter.</p>
 
       <div className="game-grid">
