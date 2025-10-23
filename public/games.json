@@ -5,12 +5,5 @@
     "description": "Et hurtigt arcade-spil, lavet til læring af Godot",
     "image": "/images/GodotDTC.png",
     "link": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/v1.0/Dodge_the_Creeps_windows_x86_64.zip"
-  },
-  {
-    "id": 2,
-    "title": "More Metalt (Fabric mod) (W.I.P)",
-    "description": "Et fabric mod, der tilføjer flere slags metaller til minecraft 1.21.4+",
-    "image": "/images/puzzlequest.jpg",
-    "link": "https://fabricmc.net/"
   }
 ]

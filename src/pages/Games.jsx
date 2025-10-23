@@ -11,8 +11,8 @@ function Games() {
 
   return (
     <div className="games-container">
-      <h1>Velkommen til projekt siden</h1>
-      <p>Her på siden ses mine færdige og igangværende projekter.</p>
+      <h1>Velkommen til spil siden</h1>
+      <p>Her på siden ses mine færdige og igangværende spil projekter.</p>
 
       <div className="game-grid">
         {games.map(game => (
