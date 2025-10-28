@@ -1,15 +1,14 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Games from "./pages/Games";
 import Projects from "./pages/Projects";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Hjem</Link>  <Link to="/Games">Spil</Link>   <Link to="/Projects">Projekter</Link>
-      </nav>
+      <Header />   {/* Ny header-komponent */}
 
       <main>
         <Routes>
@@ -19,7 +18,7 @@ function App() {
         </Routes>
       </main>
 
-      <Footer /> {/*ligger altid nederst */}
+      <Footer />
     </Router>
   );
 }

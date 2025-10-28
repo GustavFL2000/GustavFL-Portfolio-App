@@ -1,0 +1,33 @@
+.header {
+  background-color: #191f24;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: left;
+  
+}
+
+.header nav {
+  display: flex;
+  gap: 10px;
+}
+
+.header nav a {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  background: #191f24;
+  transition: all 0.3s ease;
+}
+
+.header nav a:hover {
+  transform: scale(1.03);
+  background: #64c785;
+  color: #191f24;
+}
+
+nav a:first-child {
+  margin-left: 10px;
+}
