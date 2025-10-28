@@ -5,5 +5,12 @@
     "description": "Et fabric mod, der tilføjer flere slags metaller til minecraft",
     "image": "/images/",
     "link": ""
+  },{
+    "id": 2,
+    "title": "Fitness progress tracker (W.I.P)",
+    "description": "En app til at tracke sin fitness progress, ift. vægt, reps, sets osv, til diverse øvelser.",
+    "image": "/images/",
+    "link": ""
   }
+
 ]
