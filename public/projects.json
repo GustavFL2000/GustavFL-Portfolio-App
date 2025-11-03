@@ -1,15 +1,15 @@
 [
     {
     "id": 1,
-    "title": "More Metalt (Minecraft mod) (W.I.P)",
+    "title": "More Metal (Minecraft mod) (W.I.P)",
     "description": "Et minecraft mod, der tilføjer flere slags metaller til minecraft",
-    "image": "/images/",
+    "image": "/images/moremetals.jpg",
     "link": ""
   },{
     "id": 2,
     "title": "Fitness progress tracker (W.I.P)",
     "description": "En app til at tracke sin fitness progress, ift. vægt, reps, sets osv, til diverse øvelser.",
-    "image": "/images/",
+    "image": "/images/trainingapp.jpg",
     "link": ""
   }
 

@@ -22,14 +22,9 @@
   align-items: center;
 }
 
-.game-card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  height: 100%;
-}
 
-.game-card-link:hover .game-card {
+
+.game-card:hover {
   transform: scale(1.03);
   background: #64c785;
 }

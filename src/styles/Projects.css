@@ -23,14 +23,9 @@
     align-items: center;
 }
 
-.project-card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    height: 100%;
-}
 
-.project-card-link:hover .project-card {
+
+.project-card:hover {
     transform: scale(1.03);
     background: #64c785;
 }
