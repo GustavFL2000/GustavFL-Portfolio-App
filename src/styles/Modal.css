@@ -42,3 +42,10 @@
 .modal-content a:hover {
   color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    max-width: none;
+  }
+}
