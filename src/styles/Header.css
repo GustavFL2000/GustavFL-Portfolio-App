@@ -31,3 +31,7 @@
 nav a:first-child {
   margin-left: 10px;
 }
+
+.header nav a.active {
+  border-color: #64c785;
+}
