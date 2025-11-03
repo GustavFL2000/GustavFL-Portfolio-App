@@ -5,5 +5,13 @@
     "description": "Et hurtigt arcade-spil, lavet til læring af Godot",
     "image": "/images/GodotDTC.png",
     "link": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/v1.0/Dodge_the_Creeps_windows_x86_64.zip"
+  },
+  {
+    "id": 2,
+    "title": "Snake (Browser Game) (W.I.P)",
+    "description": "Et hurtigt browser-spil, lavet med LibGDX",
+    "image": "/images/",
+    "link": ""
+
   }
 ]
