@@ -39,29 +39,48 @@ function Games() {
         ))}
       </div>
 
-      <Modal isOpen={selectedGame !== null} onClose={closeModal}>
-        {selectedGame && (
-          <>
-            <h2>{selectedGame.title}</h2>
-            <img src={selectedGame.image} alt={selectedGame.title} />
-            <p>{selectedGame.description}</p>
-            {selectedGame.link ? (
-              <a
-                href={selectedGame.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                download={selectedGame.title.includes("(Windows Download zip)")}
-              >
-                {selectedGame.title.includes("(Windows Download zip)")
-                  ? "Download Game"
-                  : "View Game"}
-              </a>
-            ) : (
-              <p>Link not available</p>
-            )}
-          </>
-        )}
-      </Modal>
+     <Modal isOpen={selectedGame !== null} onClose={closeModal}>
+  {selectedGame && (
+    <>
+      <h2>{selectedGame.title}</h2>
+      <img src={selectedGame.image} alt={selectedGame.title} />
+      <p>{selectedGame.description}</p>
+
+      {/* Windows link */}
+      {selectedGame.link && (
+        <div className="download-link">
+          <a
+            href={selectedGame.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            download={selectedGame.title.includes("(Windows Download zip)")}
+          >
+            🪟 Download til Windows
+          </a>
+        </div>
+      )}
+
+      {/* Mac link UNDER Windows */}
+      {selectedGame.link2 && (
+        <div className="download-link">
+          <a
+            href={selectedGame.link2}
+            target="_blank"
+            rel="noopener noreferrer"
+            download={selectedGame.title.includes("(Mac Download zip)")}
+          >
+            🍎 Download til Mac
+          </a>
+        </div>
+      )}
+
+      {/* Hvis ingen links findes */}
+      {!selectedGame.link && !selectedGame.link2 && <p>Link not available</p>}
+    </>
+  )}
+</Modal>
+
+
     </div>
   );
 }
