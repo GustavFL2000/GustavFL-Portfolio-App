@@ -1,5 +1,7 @@
 import "../styles/Footer.css";
 
+const APP_VERSION = "1.0.0";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -19,7 +21,7 @@ function Footer() {
         Lavet i React | Kontakt:{" "}
         <a href="mailto:gustavfl13@gmail.com">gustavfl13@gmail.com</a>
       </p>
-      <span id="app-version">Version 1.0.0</span>
+      <span id="app-version">Version {APP_VERSION}</span>
     </footer>
   );
 }
