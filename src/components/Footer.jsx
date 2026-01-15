@@ -5,6 +5,7 @@ function Footer() {
     <footer className="footer">
       <p>© {new Date().getFullYear()} Gustav Færmann Lassen</p>
       <p>
+      
         LinkedIn:{" "}
         <a
           href="https://www.linkedin.com/in/gustav-faermann-lassen"
@@ -18,6 +19,7 @@ function Footer() {
         Lavet i React | Kontakt:{" "}
         <a href="mailto:gustavfl13@gmail.com">gustavfl13@gmail.com</a>
       </p>
+      <span id="app-version">Version 1.0.0</span>
     </footer>
   );
 }
