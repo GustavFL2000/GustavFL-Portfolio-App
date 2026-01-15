@@ -1,8 +1,18 @@
 import "../styles/Footer.css";
+import { useEffect, useState } from "react";
 
 const APP_VERSION = "1.0.0";
 
 function Footer() {
+
+const [version, setVersion] = useState("");
+
+  useEffect(() => {
+    fetch("/version.txt")
+      .then(res => res.text())
+      .then(text => setVersion(text.trim()));
+  }, []);
+
   return (
     <footer className="footer">
       <p>© {new Date().getFullYear()} Gustav Færmann Lassen</p>
@@ -21,7 +31,7 @@ function Footer() {
         Lavet i React | Kontakt:{" "}
         <a href="mailto:gustavfl13@gmail.com">gustavfl13@gmail.com</a>
       </p>
-      <span id="app-version">Version {APP_VERSION}</span>
+      <small>Version {version}</small>
     </footer>
   );
 }
