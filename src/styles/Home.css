@@ -1,6 +1,6 @@
 .link-display {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
      border: 2px solid #fff;
@@ -11,9 +11,23 @@
     transition: transform 0.3s ease;
 }
 
+
+
 .home-container {
     padding: 20px;
     text-align: center;
+}
+
+.home-image-container {
+  width: 100%;
+   max-width: 400px;   /* var 600px → gør KÆMPE forskel */
+  margin: 5px auto;  /* mindre spacing */
+  display: block;      /* flex er ikke engang nødvendigt her */
+}
+
+.home-image {
+  width: 100%;           /* gør billedet responsivt */
+  height: auto;          /* bevar aspect ratio */
 }
 
 .link-display-link {
