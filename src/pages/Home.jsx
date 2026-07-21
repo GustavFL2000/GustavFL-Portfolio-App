@@ -29,11 +29,10 @@ function Home() {
         </div>
       </a>
 
-      <a>
         <div className="home-image-container">
           <img src="/images/Portfolio.png" alt="Portfolio" className="home-image" />
         </div>
-      </a>
+      
 
     </div>
   );

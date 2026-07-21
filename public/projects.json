@@ -1,16 +1,17 @@
 [
-    {
+   {
     "id": 1,
-    "title": "More Metal (Minecraft mod) (W.I.P)",
-    "description": "Et minecraft mod, der tilføjer flere slags metaller til minecraft",
-    "image": "/images/moremetals.jpg",
-    "link": ""
-  },{
-    "id": 2,
-    "title": "Fitness progress tracker (W.I.P)",
+    "title": "Fitness progress tracker",
     "description": "En app til at tracke sin fitness progress, ift. vægt, reps, sets osv, til diverse øvelser.",
     "image": "/images/trainingapp.jpg",
-    "link": ""
+    "link": "https://github.com/GustavFL2000/lift-tracker"
+  },
+  {
+    "id": 2,
+    "title": "Flip a coin",
+    "description": "En app til at flippe en mønt og se resultatet.",
+    "image": "/images/flipacoin.png",
+    "link": "https://flipacoin.gustavfl13.workers.dev/"
   }
 
 ]
