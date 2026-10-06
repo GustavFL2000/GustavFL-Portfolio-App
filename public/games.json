@@ -9,10 +9,10 @@
   },
   {
     "id": 2,
-    "title": "Browser Game (W.I.P)",
+    "title": "Yatzy",
     "description": "Et hurtigt browser-spil",
     "image": "/images/browsergame.png",
-    "link": ""
+    "link": "https://yatzy-js.gustavfl13.workers.dev/"
 
   }
 ]

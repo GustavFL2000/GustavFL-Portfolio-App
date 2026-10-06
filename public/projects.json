@@ -1,11 +1,4 @@
 [
-   {
-    "id": 1,
-    "title": "Fitness progress tracker",
-    "description": "En app til at tracke sin fitness progress, ift. vægt, reps, sets osv, til diverse øvelser.",
-    "image": "/images/trainingapp.jpg",
-    "link": "https://github.com/GustavFL2000/lift-tracker"
-  },
   {
     "id": 2,
     "title": "Flip a coin",
@@ -13,5 +6,4 @@
     "image": "/images/flipacoin.png",
     "link": "https://flipacoin.gustavfl13.workers.dev/"
   }
-
 ]
