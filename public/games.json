@@ -1,18 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Dodge the Creeps 2D (Windows Download zip)",
+    "title": "Dodge the Creeps 2D",
     "description": "Et hurtigt arcade-spil, lavet til læring af Godot",
     "image": "/images/GodotDTC.png",
-    "link": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/v2.0/DodgeTheCreeps2_windows_x86_64.zip",
-    "link2": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/Mac/DodgeTheCreepsMac.zip"
+    "windowsLink": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/v2.0/DodgeTheCreeps2_windows_x86_64.zip",
+    "macLink": "https://github.com/GustavFL2000/GustavFL-Portfolio-App/releases/download/Mac/DodgeTheCreepsMac.zip"
   },
   {
     "id": 2,
     "title": "Yatzy",
-    "description": "Et hurtigt browser-spil",
-    "image": "/images/browsergame.png",
-    "link": "https://yatzy-js.gustavfl13.workers.dev/"
-
+    "description": "Et hurtigt Yatzy-spil i browseren",
+    "image": "/images/Yatzy.png",
+    "webLink": "https://yatzy-js.gustavfl13.workers.dev/"
   }
 ]

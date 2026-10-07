@@ -22,7 +22,7 @@ function Projects() {
 
   return (
     <div className="project-container">
-      <h1>Velkommen til projekt siden</h1>
+      <h1>Velkommen til projektsiden</h1>
       <p>Her på siden ses mine færdige og igangværende ikke spil projekter.</p>
 
       <div className="project-grid">
@@ -45,13 +45,36 @@ function Projects() {
             <h2>{selectedProject.title}</h2>
             <img src={selectedProject.image} alt={selectedProject.title} />
             <p>{selectedProject.description}</p>
-            {selectedProject.link ? (
-              <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
-                View Project
-              </a>
-            ) : (
-              <p>Link not available</p>
+
+            {/* Web */}
+            {selectedProject.webLink && (
+              <div className="project-link">
+                <a
+                  href={selectedProject.webLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Åben projektet
+                </a>
+              </div>
             )}
+
+            {/* GitHub */}
+            {selectedProject.githubLink && (
+              <div className="project-link">
+                <a
+                  href={selectedProject.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Vis projekt på GitHub
+                </a>
+              </div>
+            )}
+
+            {/* Hvis ingen links findes */}
+            {!selectedProject.webLink &&
+              !selectedProject.githubLink && <p>Link not available</p>}
           </>
         )}
       </Modal>

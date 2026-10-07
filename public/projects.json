@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Flip a coin",
-    "description": "En app til at flippe en mønt og se resultatet.",
+    "description": "En app til at flippe en mønt.",
     "image": "/images/flipacoin.png",
-    "link": "https://flipacoin.gustavfl13.workers.dev/"
+    "webLink": "https://flipacoin.gustavfl13.workers.dev/"
   }
 ]
